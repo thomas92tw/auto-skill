@@ -102,6 +102,6 @@ experience/
 
 ## 作者（Author）
 
-Prompt Case
-Threads：@prompt_case
-Patreon：MattTrendsPromptEngineering
+- Prompt Case
+- Threads: [@prompt_case](https://www.threads.com/@prompt_case)
+- Patreon: [MattTrendsPromptEngineering](https://www.patreon.com/MattTrendsPromptEngineering)
