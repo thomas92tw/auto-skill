@@ -1,12 +1,28 @@
 {
-  "lastUpdated": "2026-02-09",
+  "lastUpdated": "2026-02-11",
   "version": "1.0.0",
   "skills": [
     {
-      "skillId": "",
-      "file": "",
-      "keywords": [],
-      "count": 
+      "skillId": "remotion-video-generator",
+      "file": "skill-remotion-best-practices.md",
+      "keywords": [
+        "remotion",
+        "video",
+        "animation",
+        "react"
+      ],
+      "count": 1
+    },
+    {
+      "skillId": "blogwatcher",
+      "file": "skill-blogwatcher.md",
+      "keywords": [
+        "blogwatcher",
+        "translation",
+        "obsidian",
+        "report"
+      ],
+      "count": 1
     }
   ]
 }

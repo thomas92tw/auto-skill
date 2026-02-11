@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-09",
+  "lastUpdated": "2026-02-11",
   "version": "1.0.0",
-  "totalEntries": 1,
+  "totalEntries": 3,
   "categories": [
     {
       "id": "frontend-dev",
@@ -34,7 +34,7 @@
         "GraphQL"
       ],
       "file": "backend-dev.md",
-      "count": 0
+      "count": 1
     },
     {
       "id": "writing",
@@ -80,7 +80,7 @@
         "專案"
       ],
       "file": "workflow.md",
-      "count": 0
+      "count": 1
     }
   ],
   "absorbedSkills": []
