@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-02-11",
+  "lastUpdated": "2026-02-14",
   "version": "1.0.0",
-  "totalEntries": 3,
+  "totalEntries": 4,
   "categories": [
     {
       "id": "frontend-dev",
@@ -77,10 +77,12 @@
         "工具",
         "自動化",
         "流程",
-        "專案"
+        "專案",
+        "Obsidian",
+        "推播"
       ],
       "file": "workflow.md",
-      "count": 1
+      "count": 2
     }
   ],
   "absorbedSkills": []

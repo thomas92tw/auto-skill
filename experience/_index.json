@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-11",
-  "version": "1.0.0",
+  "lastUpdated": "2026-02-14T21:30:00",
+  "version": "1.0.1",
   "skills": [
     {
       "skillId": "remotion-video-generator",
@@ -18,9 +18,83 @@
       "file": "skill-blogwatcher.md",
       "keywords": [
         "blogwatcher",
-        "translation",
-        "obsidian",
+        "brave-search",
+        "anti-hallucination",
         "report"
+      ],
+      "count": 2
+    },
+    {
+      "skillId": "mckinsey-consultant",
+      "file": "skill-mckinsey-consultant.md",
+      "keywords": [
+        "mckinsey",
+        "consulting",
+        "brave-search",
+        "high-density",
+        "data-verified",
+        "ppt-outline"
+      ],
+      "count": 1
+    },
+    {
+      "skillId": "humanize",
+      "file": "skill-humanize.md",
+      "keywords": [
+        "humanize",
+        "anti-ai-detection",
+        "writing",
+        "human-like"
+      ],
+      "count": 1
+    },
+    {
+      "skillId": "strategist-toolkit",
+      "file": "skill-strategist-toolkit.md",
+      "keywords": [
+        "strategist",
+        "market-sizing",
+        "competitor",
+        "swot",
+        "pricing",
+        "gtm",
+        "finance",
+        "risk"
+      ],
+      "count": 1
+    },
+    {
+      "skillId": "thinktank",
+      "file": "skill-thinktank.md",
+      "keywords": [
+        "thinktank",
+        "strategic-monitoring",
+        "brave-search",
+        "daily-report",
+        "intelligence"
+      ],
+      "count": 1
+    },
+    {
+      "skillId": "social-sentinel",
+      "file": "skill-social-sentinel.md",
+      "keywords": [
+        "social-sentinel",
+        "x-monitoring",
+        "strategic-synthesis",
+        "intelligence"
+      ],
+      "count": 1
+    },
+    {
+      "skillId": "system-brain",
+      "file": "skill-system-brain.md",
+      "keywords": [
+        "brain",
+        "governance",
+        "rules",
+        "soul",
+        "memory"
       ],
       "count": 1
     }

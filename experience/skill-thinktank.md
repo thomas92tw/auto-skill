@@ -1,7 +1,7 @@
-## 🔧 BlogWatcher 報告規格優化與雙軌制監控 (Dual-Path)
-**日期：** 2026-02-11
-**技能：** blogwatcher
-**情境：** 為提升報告資訊密度並防止非權威來源（如 Wikipedia）混入，確立雙軌制執行模式。
+## 🔧 ThinkTank / BlogWatcher v5.2 智庫級監測經驗庫
+**日期：** 2026-02-14
+**技能：** thinktank
+**情境：** 整合 BlogWatcher v5.0 以來的進階動態，確立以 ThinkTank 為核心的戰略監察規格。
 **解法：**
 - **雙軌運作 (Dual-Path)**：
     1. **精準搜尋 (Brave Search API)**：設定 `freshness="pd"` 抓取過去 24 小時即時動態。
@@ -28,20 +28,11 @@
 - **深度摘要規格 (Strategic Prompt v1.0)**：
     - 切換 LLM 角色為「科技與經貿戰略分析師」，要求產出約 **150 字** 的繁體中文深度摘要。
     - 內容涵蓋：事件背景、核心動態、潛在影響，提升報告的洞察價值。
-- **無人值守推播 (Non-blocking Automated Push)**：
-    - 移除寫入報告前的 `input()` 確認提示，改為靜默覆蓋 (Silent Overwrite)，確保 cron 任務不會因等待人機交互而阻塞。
-- **Brave API 頻率限制優化 (API Rate Limit Handling)**：
-    - **指數退避重試 (Exponential Backoff)**：偵測到 429 錯誤時，自動等待（如 2s, 4s, 6s）後重試，最大重試 3 次。
-    - **請求平滑化 (Request Smoothing)**：在每次 API 請求後強制加入 `1.5s` 的休止時間，避免連續高頻請求觸發封鎖。
-- **Obsidian 目錄統一規格 (Unified Directory Structure)**：
-    - 廢棄舊有的 `BlogWatcher`, `BlogWatcher_Reports` 等多個相似資料夾。
-    - 統一使用 `/note_2026/Daily_Report/` 作為唯一輸出與推播目錄。
-- **標題提煉與雜質過濾 (Title Cleanup)**：
-    - 使用 Regex (`re.sub`) 自動過濾 LLM 產生的「選項一」、「(或)」等 internal placeholders。
+- **防止覆蓋**：在寫入 Obsidian 之前，先檢查檔案是否存在。如果存在，必須詢問用戶。
 **關鍵檔案/路徑：**
-- `~/Documents/Antigravity_Workspace/Antigravity_System/skills/thinktank/daily_report_generator.py`
-- `~/Documents/Antigravity_Workspace/Antigravity_System/skills/thinktank/monitoring_settings.json`
-**keywords：** api-retry, non-blocking-push, folder-unification, title-cleanup, brave-api-429, automation-resilience
+- `~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Antigravity_Workspace/Antigravity_System/skills/blogwatcher/daily_report_generator.py`
+- `~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Antigravity_Workspace/Antigravity_System/skills/blogwatcher/monitoring_lists.md`
+**keywords：** dual-path, blogwatcher, authority-filter, gemini-translation, traditional-chinese, obsidian-sync, freshness-tuning, strategy-prompt, overwrite-protection
 
 ## 🔧 Paywall Fallback & Accessibility (付費牆備援機制)
 **日期：** 2026-02-12
